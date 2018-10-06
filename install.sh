@@ -19,9 +19,10 @@ sudo /usr/bin/python3.6 get-pip.py
 sudo ln -s /usr/bin/python3.6 /bin/python3
 pip install pqi
 pqi use tuna
+python3 -V && pip -V &&  pip list
+
 #pip install django
 # pip install uwsgi
-
 #cd /home
 #mkdir project
 #cd project
@@ -30,10 +31,9 @@ pqi use tuna
 # django-admin startapp app
 # firewall-cmd --zone=public --add-port=8000/tcp --permanent
 # firewall-cmd --reload
-systemctl disable firewalld
-systemctl stop firewalld
+#systemctl disable firewalld
+#systemctl stop firewalld
 #cd /home/wwwww
 #python3 manage.py migrate
-python3 -V && pip -V &&  pip list
 #python3 manage.py runserver
 
