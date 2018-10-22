@@ -14,26 +14,14 @@ yum -y install python-devel.x86_64 libxml2-devel
 yum -y install epel-release
 yum -y install python36-devel
 yum -y install python36
-curl -O https://bootstrap.pypa.io/get-pip.py
+curl -O https://bootstrap.pypa.io/get-pip.py -k
 sudo /usr/bin/python3.6 get-pip.py
 sudo ln -s /usr/bin/python3.6 /bin/python3
 pip install pqi
 pqi use tuna
+pip install virtualenv
+pip install virtualenvwrapper
+pip install Beaker
+pip install Tablib
+pip install glances
 python3 -V && pip -V &&  pip list
-
-#pip install django
-# pip install uwsgi
-#cd /home
-#mkdir project
-#cd project
-#django-admin startproject wwww
-# cd www
-# django-admin startapp app
-# firewall-cmd --zone=public --add-port=8000/tcp --permanent
-# firewall-cmd --reload
-#systemctl disable firewalld
-#systemctl stop firewalld
-#cd /home/wwwww
-#python3 manage.py migrate
-#python3 manage.py runserver
-
