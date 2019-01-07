@@ -64,6 +64,6 @@ pqi use tuna
 pip install virtualenv
 pip install virtualenvwrapper
 
-echo "$===================================================================================";
+echo "$====================版本信息如下=================";
 
 nginx -v && mysql -V && python3 -V && pip -V
