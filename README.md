@@ -2,11 +2,7 @@
 
 Demo ： https://lnmp.me
 
-版本信息：
-  nginx version: nginx/1.14.2 
-  mysql  Ver 14.14 Distrib 5.6.42, for Linux (x86_64) using  EditLine wrapper 
-  Python 3.6.6 
-  pip 18.1 from /usr/local/lib/python3.6/site-packages/pip (python 3.6) 
+版本信息： nginx 1.14.2, MySQL5.6.42, Python 3.6.6, pip 18.1
 
 一键安装命1令：
 
