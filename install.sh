@@ -38,6 +38,7 @@ yum -y install python-devel.x86_64 libxml2-devel
 rpm -ivh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
 yum install -y nginx
 systemctl start nginx
+systemctl enable nginx.service
 
 #安装MySQL   ( https://blog.csdn.net/javandroid/article/details/81225839 )
 rpm -Uvh http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm
