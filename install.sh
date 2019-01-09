@@ -44,8 +44,7 @@ sudo /usr/bin/python3.6 get-pip.py
 sudo ln -s /usr/bin/python3.6 /bin/python3
 pip install pqi
 pqi use tuna
-pip install virtualenv
-pip install virtualenvwrapper
+pip install pipenv
 
 echo "$====================版本信息如下=================";
 
