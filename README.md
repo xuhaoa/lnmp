@@ -4,6 +4,9 @@ Demo ： https://lnmp.me
 
 版本信息： Nginx 1.14.2, MySQL5.6.42, Python 3.6.6, pip 18.1
 
-一键安装命1令：
+一键安装命令：
 
-yum install -y wget && wget -O install.sh https://lnmp.me/install.sh --no-check-certificate && sh install.sh 
+> yum install -y wget && wget -O install.sh https://raw.githubusercontent.com/getbin/lnmp/master/install.sh
+> --no-check-certificate && sh install.sh
+
+ 
