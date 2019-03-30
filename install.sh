@@ -14,10 +14,10 @@ yum makecache
 
 #更新并安装组件
 #yum -y update
-yum -y install gcc gcc-c++ 
-yum -y install python-devel.x86_64 libxml2-devel 
+yum -y install gcc gcc-c++
+yum -y install python-devel.x86_64 libxml2-devel
 
-#安装Nginx ( https://segmentfault.com/a/1190000017781356 )yum install -y wget   
+#安装Nginx ( https://segmentfault.com/a/1190000017781356 )yum install -y wget
 rpm -ivh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
 yum install -y nginx
 systemctl start nginx
