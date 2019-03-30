@@ -34,8 +34,9 @@
         Python 3.6.6
         pip 19.0.3 from /root/.local/share/virtualenvs/app-EIlACzsd/lib/python3.6/site-packages/pip (python 3.6)
  4. 基础必备
-    pipenv ： https://pypi.org/project/pipenv/
-    python3 : https://docs.python.org/zh-cn/3.6/tutorial/index.html
+
+ - pipenv ： https://pypi.org/project/pipenv/
+ - python3 : https://docs.python.org/zh-cn/3.6/tutorial/index.html
 
 
 
