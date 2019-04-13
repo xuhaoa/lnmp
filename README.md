@@ -1,7 +1,7 @@
 # LNMP (Linux + Nginx + MySQL + Python)一键包
 ## 官网 ： https://lnmp.me
 
-注意：只支持Centos7 !~~~ CentOS7 ~~ 破音
+注意：只支持**Centos7** !~~~ **CentOS7** ~~ 破音
 
 ### 安装信息： 
 
