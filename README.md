@@ -21,7 +21,7 @@
 
     yum install -y wget && wget -O py3.sh https://lnmp.me/ftp/py3.sh --no-check-certificate && sh py3.sh
 
-## 数据库篇
+## MySQL篇
 
  1. `mysql_secure_installation` 设置数据库密码(ssh运行， 用于 **生 产 环 境** 设置）)
 
