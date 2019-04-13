@@ -34,8 +34,7 @@
  -  `Reload privilege tables now? [Y/n] `  重载权限表  Y
 >  ... Success! 巴拉巴拉巴拉  Cleaning up...    完成~~~
 
-  3.1 登录mysql  `mysql -u root -p`  ,按提示输入密码
-  3.2 测试 ： `show databases;`
+  2.1 登录 `mysql -u root -p`  ,按提示输入密码。 测试 ： `show databases;`
   
  3. 进入项目的虚拟化环境  `pipenv shell` ，此时ssh的输入提示符应该是 `(项目名)[登录用户@主机名 项目名]#`1
 
