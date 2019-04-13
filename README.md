@@ -39,7 +39,7 @@
 ## Python3篇
  1. (可选)进入项目路径 `cd /www/app` 或者 建立项目文件夹 `mkdir /www/ && mkdir /www/app`  
 
- 2. 进入项目的虚拟化环境  `pipenv shell` ，此时ssh的输入提示符应该是 `(项目名)[登录用户@主机名 项目名]#`1
+ 2. 进入项目的虚拟化环境  `pipenv shell` ，此时ssh的输入提示符应该是 `(项目名)[登录用户@主机名 项目名]#`
 
  3.  验证python3和pip是否安装成功：
     `python -V && pip -V`
