@@ -54,10 +54,10 @@
  1. 访问主机ip 显示如下则nginx安装成功且运行成功
 
 > Welcome to nginx!
-....
-巴拉巴拉(省略)
-...
-Thank you for using nginx.
+> ....
+>  巴拉巴拉(省略)
+> ...
+> Thank you for using nginx.
 
 ## 防火墙设置
 
