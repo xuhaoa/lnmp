@@ -24,19 +24,30 @@
 ## 使用步骤
  1. 进入项目路径 `cd /www/app` 或者 建立项目文件夹 `mkdir /www/ && mkdir /www/app` 
 
- 2. 进入项目的虚拟化环境  `pipenv shell` ，此时ssh的输入提示符应该是 `(项目名)[登录用户@主机名 项目名]#`1
- 
- 3. 验证安装是否成功：。
+ 2. `mysql_secure_installation` 设置数据库密码(ssh运行， 用于 **生 产 环 境** 设置）)
+
+ - `Enter current password for root (enter for none): ` 输入密码，没有密码就直接回车
+ -  `Set root password? [Y/n] `  设置root密码  Y
+ -  `Remove anonymous users? [Y/n] `  生产环境建议删除系统创建的匿名用户  Y
+ -  `Disallow root login remotely? [Y/n] `  禁止root用户远程登录  Y
+ -  `Remove test database and access to it? [Y/n] `  删除test数据库  Y
+ -  `Reload privilege tables now? [Y/n] `  重载权限表  Y
+>  ... Success! 巴拉巴拉巴拉  Cleaning up...    完成~~~
+
+  3.1 登录mysql  `mysql -u root -p`  ,按提示输入密码
+  3.2 测试 ： `show databases;`
+  
+ 3. 进入项目的虚拟化环境  `pipenv shell` ，此时ssh的输入提示符应该是 `(项目名)[登录用户@主机名 项目名]#`1
+
+ 4.  验证python3和pip是否安装成功：
     `python -V && pip -V`
+
 提示如下 则进入成功：
 
         (app) [root@VM app]# python -V && pip -V
         Python 3.6.6
         pip 19.0.3 from /root/.local/share/virtualenvs/app-EIlACzsd/lib/python3.6/site-packages/pip (python 3.6)
- 4. 基础必备
 
- - pipenv ： https://pypi.org/project/pipenv/
- - python3 : https://docs.python.org/zh-cn/3.6/tutorial/index.html
 
 
 
