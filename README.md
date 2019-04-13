@@ -62,5 +62,9 @@ Thank you for using nginx.
 ## 防火墙设置
 
  1. 脚本默认是开放http（80端口）
- 2. 如需开放其他端口，例：开放80端口,请运行`firewall-cmd --zone=public --add-port=80/tcp --permanent` 
- 3. `firewall-cmd --reload` 防火墙重载 或者 `firewall-cmd --complete-reload`
+ 2. 基本操作
+- 开启了哪些服务和端口：`firewall-cmd --list-all`
+- 查端口：`firewall-cmd --permanent --query-port=80/tcp` 
+- 增加端口: `firewall-cmd --zone=public --add-port=80/tcp --permanent`
+- 删除端口：`firewall-cmd --permanent --remove-port=80/tcp `
+ 3. 重启防火墙 `systemctl restart firewalld`
