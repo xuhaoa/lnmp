@@ -51,10 +51,17 @@
         pip 19.0.3 from /root/.local/share/virtualenvs/app-EIlACzsd/lib/python3.6/site-packages/pip (python 3.6)
         
 ## Nginx篇
- 1. 访问主机ip 显示如下则nginx安装且运行成功
+ 1. 访问主机ip 显示如下则nginx安装成功且运行成功
 
 > Welcome to nginx!
 ....
 巴拉巴拉(省略)
 ...
 Thank you for using nginx.
+
+## 防火墙设置
+
+ 1. 脚本默认是开放http（80端口）
+ 2. 如需开放其他端口，请运行下方代码：
+   `firewall-cmd --zone=public --add-port=80/tcp --permanent` 添加端口，例：80
+    `firewall-cmd --reload` 防火墙重载 或者 `firewall-cmd --complete-reload`
