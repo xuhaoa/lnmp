@@ -63,5 +63,5 @@ Thank you for using nginx.
 
  1. 脚本默认是开放http（80端口）
  2. 如需开放其他端口，请运行下方代码：
-   `firewall-cmd --zone=public --add-port=80/tcp --permanent` 添加端口，例：80
-    `firewall-cmd --reload` 防火墙重载 或者 `firewall-cmd --complete-reload`
+`firewall-cmd --zone=public --add-port=80/tcp --permanent` 添加端口，例：80
+`firewall-cmd --reload` 防火墙重载 或者 `firewall-cmd --complete-reload`
